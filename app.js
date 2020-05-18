@@ -5,11 +5,12 @@ app.set("view engine", 'ejs');
 app.use(express.static("public"));
 
 app.get('/', function(req, res) {
-    res.render('index.html');
+    res.render('index');
 });
-
 app.get('/results', function(req, res) {
-    request('http://www.omdbapi.com/?s=harry+potter&apikey=thewdb', function(error, request, body) {
+    var name = req.query.search;
+    var url = 'http://www.omdbapi.com/?s=' + name + '&apikey=thewdb';
+    request(url, function(error, request, body) {
         if (!error && request.statusCode == 200) {
             var data = JSON.parse(body);
             res.render('results', { data: data });

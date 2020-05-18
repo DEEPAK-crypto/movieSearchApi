@@ -1,0 +1,9 @@
+<%- include("partials/header") %>
+
+    <div id="schContainer">
+        <p id='boxTitle'>Find Movie by Name</p>
+        <form action="/results" method="get"><input type="text" id="boxInput" placeholder="movie name" name='search'>
+            <button id="boxButton"><i class="fas fa-search"></i></button>
+        </form>
+    </div>
+    <%- include("partials/footer") %>
