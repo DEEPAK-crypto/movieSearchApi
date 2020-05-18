@@ -1,8 +1,10 @@
-<h1>Result Page</h1>
+<%- include("partials/header") %>
+    <h1>Result Page</h1>
 
-<% data['Search'].forEach(function(movie){ %>
-    <li>
-        <%= movie['Title'] %>
-            <img src="<%=movie['Poster']%>" alt="">
-    </li>
-    <%});%>
+    <% data['Search'].forEach(function(movie){ %>
+        <li>
+            <%= movie['Title'] %>
+                <img src="<%=movie['Poster']%>" alt="">
+        </li>
+        <%});%>
+            <%- include("partials/footer") %>
