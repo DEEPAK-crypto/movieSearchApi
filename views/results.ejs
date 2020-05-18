@@ -1,10 +1,31 @@
 <%- include("partials/header") %>
-    <h1>Result Page</h1>
 
-    <% data['Search'].forEach(function(movie){ %>
-        <li>
-            <%= movie['Title'] %>
-                <img src="<%=movie['Poster']%>" alt="">
-        </li>
-        <%});%>
-            <%- include("partials/footer") %>
+    <div id="searchContainer">
+        <div id='innerContent'>
+            <h1>Result Page</h1>
+
+            <% data['Search'].forEach(function(movie){ %>
+                <table id="a">
+                    </script>
+                    <td id="img"> <img id="poster" src="<%=movie['Poster']%>" alt="">
+                    </td>
+                    <td id="list">
+                        <strong> <%= movie['Title'] %></strong>
+                        <br>
+                        <span> Year - </span>
+                        <%= movie['Year'] %><br>
+                            <span> IMDB id - </span>
+                            <%= movie['imdbID'] %><br>
+                                <span> Type - </span>
+                                <%= movie['Type'] %>
+                    </td>
+
+
+
+
+                </table>
+                <%});%>
+
+        </div>
+    </div>
+    <%- include("partials/footer") %>

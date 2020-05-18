@@ -7,6 +7,24 @@ body {
     background-image: url(https://cache.desktopnexus.com/wallpapers/1998/1998762-1920x1080-Movies.jpg?st=xAtOWFgf5DQQvrcv7OofLg&e=1589807073);
 }
 
+table {
+    width: 90%;
+    padding: 0 15px 30px 15px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.93);
+}
+
+td {
+    border: none;
+}
+
+#img {
+    padding-left: 50px;
+    width: 200px;
+}
+
 #head {
     top: 0;
     margin: 0;
@@ -16,7 +34,6 @@ body {
     width: 100%;
     position: fixed;
     overflow: hidden;
-    display: block;
 }
 
 #schbt {
@@ -58,7 +75,7 @@ body {
     width: 50%;
     height: 480px;
     display: block;
-    margin: 100px auto auto auto;
+    margin: 150px auto auto auto;
     background-color: rgba(176, 176, 176, 0.79);
     border-radius: 13px;
     text-align: center;
@@ -89,5 +106,21 @@ i {
 }
 
 #content {
-    padding-top: 100px;
+    margin-top: 100px;
+}
+
+#searchContainer {
+    background: rgba(176, 176, 176, 0.79);
+    width: 80%;
+    margin: 0 auto;
+    min-width: 500px;
+    border-radius: 17px;
+}
+
+#innerContent {
+    padding: 30px 15px 30px 25px;
+}
+
+#poster {
+    width: 100px;
 }
