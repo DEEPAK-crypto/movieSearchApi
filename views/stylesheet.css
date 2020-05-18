@@ -17,20 +17,20 @@ body {
 #schbt {
     float: right;
     padding: 6px;
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 14px;
-    border-radius: 13px;
-    font-family: 'Roboto', sans-serif;
+    border: none;
+    background: none;
 }
 
 #schbx {
     float: right;
     padding: 6px;
     margin-top: 15px;
-    ;
     font-size: 14px;
     margin-right: 10px;
     border-radius: 13px;
+    border: none;
 }
 
 #title {
@@ -49,11 +49,38 @@ body {
 }
 
 #schContainer {
-    min-width: 480px;
+    min-width: 680px;
     width: 50%;
     height: 480px;
     display: block;
     margin: 100px auto auto auto;
     background-color: rgba(176, 176, 176, 0.79);
     border-radius: 13px;
+    text-align: center;
+}
+
+#boxTitle {
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    padding-top: 150px;
+}
+
+#boxInput {
+    height: 30px;
+    width: 250px;
+    border: none;
+    border-radius: 13px;
+    margin-right: 10px;
+}
+
+#boxButton {
+    background: none;
+    border: none;
+}
+
+
+}
+i {
+    font-size: 28px;
 }
