@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(https://cache.desktopnexus.com/wallpapers/1998/1998762-1920x1080-Movies.jpg?st=xAtOWFgf5DQQvrcv7OofLg&e=1589807073);
+}
+
+#head {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(159, 90, 176, 0.8);
+    height: 60px;
+    width: 100%;
+}
+
+#schbt {
+    float: right;
+    padding: 6px;
+    margin-top: 15px;
+    font-size: 14px;
+    border-radius: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#schbx {
+    float: right;
+    padding: 6px;
+    margin-top: 15px;
+    ;
+    font-size: 14px;
+    margin-right: 10px;
+    border-radius: 13px;
+}
+
+#title {
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+    color: white;
+}
+
+#container {
+    width: 720px;
+    margin: 0 auto;
+    min-width: 480px;
+    width: 80%;
+}
+
+#schContainer {
+    min-width: 480px;
+    width: 50%;
+    height: 480px;
+    display: block;
+    margin: 100px auto auto auto;
+    background-color: rgba(176, 176, 176, 0.79);
+    border-radius: 13px;
+}
